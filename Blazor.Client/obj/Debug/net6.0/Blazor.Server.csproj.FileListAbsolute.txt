@@ -1,0 +1,8 @@
+E:\Code\Project\Blazor.Maui\Blazor.Server\obj\Debug\net6.0\Blazor.Server.csproj.AssemblyReference.cache
+E:\Code\Project\Blazor.Maui\Blazor.Server\obj\Debug\net6.0\Blazor.Server.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\Project\Blazor.Maui\Blazor.Server\obj\Debug\net6.0\Blazor.Server.AssemblyInfoInputs.cache
+E:\Code\Project\Blazor.Maui\Blazor.Server\obj\Debug\net6.0\Blazor.Server.AssemblyInfo.cs
+E:\Code\Project\Blazor.Maui\Blazor.Server\obj\Debug\net6.0\Blazor.Server.csproj.CoreCompileInputs.cache
+E:\Code\Project\Blazor.Maui\Blazor.Server\obj\Debug\net6.0\Blazor.Server.MvcApplicationPartsAssemblyInfo.cache
+E:\Code\Project\Blazor.Maui\Blazor.Server\obj\Debug\net6.0\Blazor.Server.RazorAssemblyInfo.cache
+E:\Code\Project\Blazor.Maui\Blazor.Server\obj\Debug\net6.0\Blazor.Server.RazorAssemblyInfo.cs

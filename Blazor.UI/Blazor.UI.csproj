@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PackageOutputPath>E:\Code\Project\Blazor.Maui\Blazot.Nuget</PackageOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pages\Login.razor.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\Login.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\CP\Father.razor" />
+    <None Include="Pages\CP\Grandson.razor" />
+    <None Include="Pages\CP\Son.razor" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AntDesign" Version="0.11.0" />
+    <PackageReference Include="AntDesign.Charts" Version="0.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Blazor.Model\Blazor.Model.csproj" />
+  </ItemGroup>
+
+</Project>

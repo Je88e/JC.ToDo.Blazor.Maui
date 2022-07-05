@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Blazor.UI</id>
+    <version>1.0.0</version>
+    <authors>Blazor.UI</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Blazor.Model" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="AntDesign" version="0.11.0" exclude="Build,Analyzers" />
+        <dependency id="AntDesign.Charts" version="0.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Components.Web" version="6.0.6" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\Code\Project\Blazor.Maui\Blazor.UI\bin\Debug\net6.0\Blazor.UI.dll" target="lib\net6.0\Blazor.UI.dll" />
+    <file src="E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\staticwebassets\msbuild.Blazor.UI.Microsoft.AspNetCore.StaticWebAssets.props" target="build\Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\staticwebassets\msbuild.build.Blazor.UI.props" target="build\Blazor.UI.props" />
+    <file src="E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Blazor.UI.props" target="buildMultiTargeting\Blazor.UI.props" />
+    <file src="E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Blazor.UI.props" target="buildTransitive\Blazor.UI.props" />
+    <file src="E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\scopedcss\projectbundle\Blazor.UI.bundle.scp.css" target="staticwebassets\Blazor.UI.bundle.scp.css" />
+    <file src="E:\Code\Project\Blazor.Maui\Blazor.UI\wwwroot\background.png" target="staticwebassets\background.png" />
+    <file src="E:\Code\Project\Blazor.Maui\Blazor.UI\wwwroot\exampleJsInterop.js" target="staticwebassets\exampleJsInterop.js" />
+  </files>
+</package>

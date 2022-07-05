@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "u9Yup7y8Kq1SKDmjLH4EmmPR+Y8l0AfktinutdgNik0GNaFyb+RttbrbgCjzHMOO0H4cPW4D6gosxog/YARXXA==",
+  "success": true,
+  "projectFilePath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\12103\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

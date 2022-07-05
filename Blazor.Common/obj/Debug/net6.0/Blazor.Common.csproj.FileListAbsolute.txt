@@ -1,0 +1,12 @@
+E:\Code\Project\Blazor.Maui\Blazor.Common\bin\Debug\net6.0\Blazor.Common.deps.json
+E:\Code\Project\Blazor.Maui\Blazor.Common\bin\Debug\net6.0\Blazor.Common.dll
+E:\Code\Project\Blazor.Maui\Blazor.Common\bin\Debug\net6.0\Blazor.Common.pdb
+E:\Code\Project\Blazor.Maui\Blazor.Common\obj\Debug\net6.0\Blazor.Common.csproj.AssemblyReference.cache
+E:\Code\Project\Blazor.Maui\Blazor.Common\obj\Debug\net6.0\Blazor.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\Project\Blazor.Maui\Blazor.Common\obj\Debug\net6.0\Blazor.Common.AssemblyInfoInputs.cache
+E:\Code\Project\Blazor.Maui\Blazor.Common\obj\Debug\net6.0\Blazor.Common.AssemblyInfo.cs
+E:\Code\Project\Blazor.Maui\Blazor.Common\obj\Debug\net6.0\Blazor.Common.csproj.CoreCompileInputs.cache
+E:\Code\Project\Blazor.Maui\Blazor.Common\obj\Debug\net6.0\Blazor.Common.dll
+E:\Code\Project\Blazor.Maui\Blazor.Common\obj\Debug\net6.0\refint\Blazor.Common.dll
+E:\Code\Project\Blazor.Maui\Blazor.Common\obj\Debug\net6.0\Blazor.Common.pdb
+E:\Code\Project\Blazor.Maui\Blazor.Common\obj\Debug\net6.0\ref\Blazor.Common.dll
