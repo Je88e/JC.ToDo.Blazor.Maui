@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Code\\Project\\Blazor.Maui\\Blazor.Wasm\\Blazor.Wasm.csproj": {}
+    "e:\\Code\\Project\\Blazor.Maui\\Blazor.Wasm\\Blazor.Wasm.csproj": {}
   },
   "projects": {
-    "E:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj": {
+    "e:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj",
+        "projectUniqueName": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj",
         "projectName": "Blazor.Common",
-        "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj",
+        "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj",
         "packagesPath": "C:\\Users\\12103\\.nuget\\packages\\",
-        "outputPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\obj\\",
+        "outputPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -71,14 +71,14 @@
         }
       }
     },
-    "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj": {
+    "e:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj",
+        "projectUniqueName": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj",
         "projectName": "Blazor.Model",
-        "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj",
+        "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj",
         "packagesPath": "C:\\Users\\12103\\.nuget\\packages\\",
-        "outputPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\obj\\",
+        "outputPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -132,14 +132,14 @@
         }
       }
     },
-    "E:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj": {
+    "e:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj",
+        "projectUniqueName": "e:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj",
         "projectName": "Blazor.UI",
-        "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj",
+        "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj",
         "packagesPath": "C:\\Users\\12103\\.nuget\\packages\\",
-        "outputPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\obj\\",
+        "outputPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -162,8 +162,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj": {
-                "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj"
+              "e:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj": {
+                "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj"
               }
             }
           }
@@ -211,14 +211,14 @@
         }
       }
     },
-    "E:\\Code\\Project\\Blazor.Maui\\Blazor.Wasm\\Blazor.Wasm.csproj": {
+    "e:\\Code\\Project\\Blazor.Maui\\Blazor.Wasm\\Blazor.Wasm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Wasm\\Blazor.Wasm.csproj",
+        "projectUniqueName": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Wasm\\Blazor.Wasm.csproj",
         "projectName": "Blazor.Wasm",
-        "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Wasm\\Blazor.Wasm.csproj",
+        "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Wasm\\Blazor.Wasm.csproj",
         "packagesPath": "C:\\Users\\12103\\.nuget\\packages\\",
-        "outputPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Wasm\\obj\\",
+        "outputPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Wasm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -241,11 +241,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj": {
-                "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj"
+              "e:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj": {
+                "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj"
               },
-              "E:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj": {
-                "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj"
+              "e:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj": {
+                "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj"
               }
             }
           }

@@ -10,6 +10,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="E:\Code\Project\Blazor.Maui\Blazor.Model\bin\Debug\net6.0\Blazor.Model.dll" target="lib\net6.0\Blazor.Model.dll" />
+    <file src="e:\Code\Project\Blazor.Maui\Blazor.Model\bin\Debug\net6.0\Blazor.Model.dll" target="lib\net6.0\Blazor.Model.dll" />
   </files>
 </package>

@@ -11,13 +11,13 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = Blazor.Wasm
 build_property.RootNamespace = Blazor.Wasm
-build_property.ProjectDir = E:\Code\Project\Blazor.Maui\Blazor.Wasm\
+build_property.ProjectDir = e:\Code\Project\Blazor.Maui\Blazor.Wasm\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\Code\Project\Blazor.Maui\Blazor.Wasm
+build_property.MSBuildProjectDirectory = e:\Code\Project\Blazor.Maui\Blazor.Wasm
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/Code/Project/Blazor.Maui/Blazor.Wasm/_Imports.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.Wasm/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

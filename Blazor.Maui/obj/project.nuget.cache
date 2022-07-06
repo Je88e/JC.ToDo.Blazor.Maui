@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DDgsxXuhrQXwXAs+BOQzxuW2IlqfHzS1BFG3wL35hEDn11QnEhqWXyr69pZAVgYrfmypysi8qyj+0025TgO4nQ==",
+  "dgSpecHash": "WpDnfgLI14yd1jQHoVmTR9BVLqqbLR4G/lcEPQAukQ2Kzy+hyou0xNJYpVu+wg/M3NxBzSXCTewGku+LAbZb3A==",
   "success": true,
   "projectFilePath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Maui\\Blazor.Maui.csproj",
   "expectedPackageFiles": [
@@ -241,6 +241,8 @@
     "C:\\Users\\12103\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk8\\1.6.20.1\\xamarin.kotlin.stdlib.jdk8.1.6.20.1.nupkg.sha512",
     "C:\\Users\\12103\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.6.0.1\\xamarin.kotlinx.coroutines.android.1.6.0.1.nupkg.sha512",
     "C:\\Users\\12103\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.6.0.1\\xamarin.kotlinx.coroutines.core.jvm.1.6.0.1.nupkg.sha512",
+    "C:\\Users\\12103\\.nuget\\packages\\blazor.model\\1.0.0\\blazor.model.1.0.0.nupkg.sha512",
+    "C:\\Users\\12103\\.nuget\\packages\\blazor.ui\\1.0.0\\blazor.ui.1.0.0.nupkg.sha512",
     "C:\\Users\\12103\\.nuget\\packages\\microsoft.netcore.app.host.linux-arm\\6.0.5\\microsoft.netcore.app.host.linux-arm.6.0.5.nupkg.sha512",
     "C:\\Users\\12103\\.nuget\\packages\\microsoft.netcore.app.host.linux-arm64\\6.0.5\\microsoft.netcore.app.host.linux-arm64.6.0.5.nupkg.sha512",
     "C:\\Users\\12103\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\6.0.5\\microsoft.netcore.app.host.linux-x64.6.0.5.nupkg.sha512",
