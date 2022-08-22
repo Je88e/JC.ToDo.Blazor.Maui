@@ -7,4 +7,9 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components" Version="6.0.8" />
+    <PackageReference Include="OneOf" Version="2.1.155" />
+  </ItemGroup>
+
 </Project>
