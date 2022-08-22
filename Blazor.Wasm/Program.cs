@@ -1,16 +1,17 @@
 using Blazor.Common.Extensions;
-using Blazor.UI;
-using Blazor.UI.AntDesion.Extensions;
-using Microsoft.AspNetCore.Components.Web;
+using Blazor.UI; 
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<Main>("app"); 
 builder.Services.AddAntDesignSetup();
 
-builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://localhost:5022") });
+builder.Services.AddBlazorHttpClient();
 builder.Services.AddScoped<TaskDetailServices>();
+builder.Services.AddOidcAuthentication(options =>
+{
+    builder.Configuration.Bind("Local", options.ProviderOptions);
+});
 
-//builder.Services.AddBlazorBaseServerSetup();
 var app = builder.Build(); 
 await app.RunAsync();

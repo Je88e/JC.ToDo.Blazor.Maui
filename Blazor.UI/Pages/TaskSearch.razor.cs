@@ -1,4 +1,4 @@
-﻿using Blazor.Model;
+﻿using Blazor.Model.Dto;
 using Microsoft.AspNetCore.Components;
 using System.Net.Http.Json;
 

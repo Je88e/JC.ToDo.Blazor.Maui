@@ -1,3 +1,15 @@
+D:\JC\Projects\Blazor.Maui\Blazor.Model\bin\Debug\net6.0\Blazor.Model.deps.json
+D:\JC\Projects\Blazor.Maui\Blazor.Model\bin\Debug\net6.0\Blazor.Model.dll
+D:\JC\Projects\Blazor.Maui\Blazor.Model\bin\Debug\net6.0\Blazor.Model.pdb
+D:\JC\Projects\Blazor.Maui\Blazor.Model\obj\Debug\net6.0\Blazor.Model.csproj.AssemblyReference.cache
+D:\JC\Projects\Blazor.Maui\Blazor.Model\obj\Debug\net6.0\Blazor.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\JC\Projects\Blazor.Maui\Blazor.Model\obj\Debug\net6.0\Blazor.Model.AssemblyInfoInputs.cache
+D:\JC\Projects\Blazor.Maui\Blazor.Model\obj\Debug\net6.0\Blazor.Model.AssemblyInfo.cs
+D:\JC\Projects\Blazor.Maui\Blazor.Model\obj\Debug\net6.0\Blazor.Model.csproj.CoreCompileInputs.cache
+D:\JC\Projects\Blazor.Maui\Blazor.Model\obj\Debug\net6.0\Blazor.Model.dll
+D:\JC\Projects\Blazor.Maui\Blazor.Model\obj\Debug\net6.0\refint\Blazor.Model.dll
+D:\JC\Projects\Blazor.Maui\Blazor.Model\obj\Debug\net6.0\Blazor.Model.pdb
+D:\JC\Projects\Blazor.Maui\Blazor.Model\obj\Debug\net6.0\ref\Blazor.Model.dll
 E:\Code\Project\Blazor.Maui\Blazor.Model\bin\Debug\net6.0\Blazor.Model.deps.json
 E:\Code\Project\Blazor.Maui\Blazor.Model\bin\Debug\net6.0\Blazor.Model.dll
 E:\Code\Project\Blazor.Maui\Blazor.Model\bin\Debug\net6.0\Blazor.Model.pdb

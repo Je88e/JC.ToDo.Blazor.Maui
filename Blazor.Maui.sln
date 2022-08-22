@@ -14,7 +14,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.Model", "Blazor.Mode
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.Common", "Blazor.Common\Blazor.Common.csproj", "{CA4121AB-D0DF-47BC-9589-4F4F71B112A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.Api", "Blazor.Api\Blazor.Api.csproj", "{0DFE380B-DBF9-4AD6-B80C-1EB682EBC953}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.Api", "Blazor.Api\Blazor.Api.csproj", "{0DFE380B-DBF9-4AD6-B80C-1EB682EBC953}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.Client", "Blazor.Client\Blazor.Client.csproj", "{55CA7FA4-7E2B-4C2C-B6A7-E4147FBCF02E}"
 EndProject

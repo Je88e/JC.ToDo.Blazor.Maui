@@ -1,0 +1,21 @@
+﻿<Menu Theme="MenuTheme.Dark" Mode=@MenuMode.Inline Style="height: 100%; border-right: 10;">
+    <MenuItem RouterLink="/">
+        主页
+    </MenuItem>
+    <MenuItem RouterLink="/today" RouterMatch="NavLinkMatch.Prefix">
+        我的一天
+    </MenuItem>
+    <MenuItem RouterLink="/star" RouterMatch="NavLinkMatch.Prefix">
+        重要任务
+    </MenuItem>
+    <MenuItem RouterLink="/search" RouterMatch="NavLinkMatch.Prefix">
+        全部
+    </MenuItem>
+    <MenuItem RouterLink="/statistics" RouterMatch="NavLinkMatch.Prefix">
+        统计
+    </MenuItem>
+</Menu>
+
+@code {
+
+}

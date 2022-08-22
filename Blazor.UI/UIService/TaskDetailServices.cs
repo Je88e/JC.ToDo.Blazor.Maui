@@ -1,5 +1,5 @@
 ﻿using AntDesign;
-using Blazor.Model;
+using Blazor.Model.Dto;
 using Blazor.UI.Pages;
 
 namespace Blazor.UI

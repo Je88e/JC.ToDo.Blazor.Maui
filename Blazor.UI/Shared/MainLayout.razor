@@ -1,47 +1,24 @@
 ﻿@inherits LayoutComponentBase 
-<Layout>
-    <Sider Style="overflow: auto;height: 100vh;position: fixed;left: 0;">
-        <div class="logo">
-            进击吧！Blazor！
-        </div>
-        <Menu Theme="MenuTheme.Dark" Mode=@MenuMode.Inline>
-            <MenuItem RouterLink="/">
-                主页
-            </MenuItem>
-            <MenuItem RouterLink="/today" RouterMatch="NavLinkMatch.Prefix">
-                我的一天
-            </MenuItem>
-            <MenuItem RouterLink="/star" RouterMatch="NavLinkMatch.Prefix">
-                重要任务
-            </MenuItem>
-            <MenuItem RouterLink="/search" RouterMatch="NavLinkMatch.Prefix">
-                全部
-            </MenuItem>
-            <MenuItem RouterLink="/statistics" RouterMatch="NavLinkMatch.Prefix">
-                统计
-            </MenuItem>
-        </Menu>
-    </Sider>
-    <Layout Class="site-layout">
-        @Body
+
+<Layout Style="height:100vh">
+    <Header Style="padding:0 20px;">
+        <ToDoHead />
+    </Header> 
+    <Layout >
+        <Sider Width="200" >
+            <ToDoMenu />
+        </Sider>
+        <Layout Style=" padding: 0 24px 24px;">
+            @*<Breadcrumb Style="margin: 16px 0;">
+                <BreadcrumbItem>To</BreadcrumbItem>
+                <BreadcrumbItem>Do</BreadcrumbItem>
+                <BreadcrumbItem>App</BreadcrumbItem>
+            </Breadcrumb>*@
+            <Content Class="site-layout-background" Style=" padding: 24px; margin: 0; min-height: 280px;">
+                @Body
+            </Content>
+        </Layout> 
     </Layout>
-</Layout>             
+</Layout>              
 
 
-<style>
-    .logo {
-        text-align: center;
-        vertical-align: middle;
-        color: white;
-        font-weight: bold;
-        font-size: 18px;
-        height: 32px;
-        margin: 16px;
-    }
-
-    .site-layout {
-        padding: 10px 20px 20px 220px;
-        background-color: white;
-        height: 100vh
-    }
-</style>

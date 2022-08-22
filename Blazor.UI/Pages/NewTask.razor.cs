@@ -1,5 +1,5 @@
 ﻿using AntDesign;
-using Blazor.Model;
+using Blazor.Model.Dto;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using System.Net.Http.Json;

@@ -1,57 +1,33 @@
-﻿using AntDesign;
-using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Authorization;
-using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.Http;
-using System.Net.Http.Headers;
-using System.Net.Http.Json;
-using System.Threading.Tasks;
-using Blazor.Model;
+﻿using Microsoft.AspNetCore.Components;
+using AntDesign;
+using Blazor.Model.PageModel;
 
 namespace Blazor.UI.Pages
 {
-    public partial class Login
-    {
-        [Inject] public HttpClient Http { get; set; }
-        [Inject] public MessageService MsgSvr { get; set; }
-        [Inject] public AuthenticationStateProvider AuthProvider { get; set; }
+  public partial class Login {
+    private readonly LoginParamsType _model = new LoginParamsType();
 
-        LoginDto model = new LoginDto();
-        bool isLoading;
+        [Inject] public NavigationManager NavigationManager { get; set; }
 
-        async void OnLogin()
+        //[Inject] public IAccountService AccountService { get; set; }
+
+        [Inject] public MessageService Message { get; set; }
+
+        public void HandleSubmit()
         {
-            isLoading = true;
-
-            var httpResponse = await Http.PostAsJsonAsync<LoginDto>($"api/Auth/Login", model);
-            UserDto result = await httpResponse.Content.ReadFromJsonAsync<UserDto>();
-
-            if (string.IsNullOrWhiteSpace(result?.Token) == false)
+            if (_model.UserName == "admin" && _model.Password == "ant.design")
             {
-                MsgSvr.Success($"登录成功");
-                Http.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", result.Token);
-                ((AuthProvider)AuthProvider).MarkUserAsAuthenticated(result);
+                NavigationManager.NavigateTo("/");
+                return;
             }
-            else
-            {
-                MsgSvr.Error($"用户名或密码错误");
-            }
-            isLoading = false;
-            InvokeAsync(StateHasChanged);
+            NavigationManager.NavigateTo("/");
         }
 
-
-        string ClientHost;
-        string ServerHost;
-        protected override async Task OnInitializedAsync()
+        public async Task GetCaptcha()
         {
-
-            ClientHost = WebAssemblyHostBuilder.CreateDefault().HostEnvironment.BaseAddress;
-            ServerHost = await Http.GetStringAsync($"api/Auth/GetHost");
-            await base.OnInitializedAsync();
+            //var captcha = await AccountService.GetCaptchaAsync(_model.Mobile);
+            //await Message.Success($"Verification code validated successfully! The verification code is: {captcha}");
+            await Message.Success($"Verification code validated successfully! ");
         }
     }
 }

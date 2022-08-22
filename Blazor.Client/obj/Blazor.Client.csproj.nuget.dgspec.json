@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "e:\\Code\\Project\\Blazor.Maui\\Blazor.Client\\Blazor.Client.csproj": {}
+    "E:\\Code\\Project\\Blazor.Maui\\Blazor.Client\\Blazor.Client.csproj": {}
   },
   "projects": {
-    "e:\\Code\\Project\\Blazor.Maui\\Blazor.Client\\Blazor.Client.csproj": {
+    "E:\\Code\\Project\\Blazor.Maui\\Blazor.Client\\Blazor.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Client\\Blazor.Client.csproj",
+        "projectUniqueName": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Client\\Blazor.Client.csproj",
         "projectName": "Blazor.Client",
-        "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Client\\Blazor.Client.csproj",
-        "packagesPath": "C:\\Users\\12103\\.nuget\\packages\\",
-        "outputPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Client\\obj\\",
+        "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Client\\Blazor.Client.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\12103\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,15 +27,14 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "E:\\Code\\Project\\Blazor.Maui\\Blazot.Nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "e:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj": {
-                "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj"
+              "E:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj": {
+                "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj"
               }
             }
           }
@@ -74,24 +73,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "e:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj": {
+    "E:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj",
-        "projectName": "Blazor.Model",
-        "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj",
-        "packagesPath": "C:\\Users\\12103\\.nuget\\packages\\",
-        "outputPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\obj\\",
+        "projectUniqueName": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj",
+        "projectName": "Blazor.Common",
+        "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\12103\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -101,7 +100,170 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "E:\\Code\\Project\\Blazor.Maui\\Blazot.Nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\Blazor.Entity.csproj": {
+                "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\Blazor.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AntDesign": {
+              "target": "Package",
+              "version": "[0.11.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\Blazor.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\Blazor.Entity.csproj",
+        "projectName": "Blazor.Entity",
+        "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\Blazor.Entity.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj",
+        "projectName": "Blazor.Model",
+        "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -135,24 +297,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "e:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj": {
+    "E:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj",
+        "projectUniqueName": "E:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj",
         "projectName": "Blazor.UI",
-        "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj",
-        "packagesPath": "C:\\Users\\12103\\.nuget\\packages\\",
-        "outputPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\obj\\",
+        "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\12103\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -162,15 +324,17 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "E:\\Code\\Project\\Blazor.Maui\\Blazot.Nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "e:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj": {
-                "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj"
+              "E:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj": {
+                "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj"
+              },
+              "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj": {
+                "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj"
               }
             }
           }
@@ -193,9 +357,17 @@
               "target": "Package",
               "version": "[0.2.0, )"
             },
+            "Microsoft.AspNetCore.Components.Authorization": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
             "Microsoft.AspNetCore.Components.Web": {
               "target": "Package",
-              "version": "[6.0.6, )"
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
+              "target": "Package",
+              "version": "[6.0.7, )"
             }
           },
           "imports": [
@@ -214,7 +386,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400-preview.22301.10\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

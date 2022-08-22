@@ -5,7 +5,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageOutputPath>E:\Code\Project\Blazor.Maui\Blazot.Nuget</PackageOutputPath>
   </PropertyGroup>
 
 </Project>
