@@ -6,7 +6,10 @@
     <authors>Blazor.Model</authors>
     <description>Package Description</description>
     <dependencies>
-      <group targetFramework="net6.0" />
+      <group targetFramework="net6.0">
+        <dependency id="Microsoft.AspNetCore.Components" version="6.0.8" exclude="Build,Analyzers" />
+        <dependency id="OneOf" version="2.1.155" exclude="Build,Analyzers" />
+      </group>
     </dependencies>
   </metadata>
   <files>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "G23H0hQTCcH6psE809WyspQ95f2D6qBR2VQrGEcAJ5giFzAuqY4k0r696uVx+hgRmkmWGr4fN+ZSmFrctEAvQA==",
+  "dgSpecHash": "bXgVUE8hPO2M6uK1rukq8RYuKgGJIlesmN+Q9aBnKpy7zWMzHCaycEQ2prveQLo618zr4PxOvlhfVMj8muG7bw==",
   "success": true,
   "projectFilePath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Wasm\\Blazor.Wasm.csproj",
   "expectedPackageFiles": [

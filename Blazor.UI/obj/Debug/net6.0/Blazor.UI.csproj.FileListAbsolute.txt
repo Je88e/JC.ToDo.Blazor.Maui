@@ -52,3 +52,5 @@ E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\Blazor.UI.dll
 E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\refint\Blazor.UI.dll
 E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\Blazor.UI.pdb
 E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\ref\Blazor.UI.dll
+E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\scopedcss\Shared\Login.razor.rz.scp.css
+E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\scopedcss\Shared\UserLayout.razor.rz.scp.css

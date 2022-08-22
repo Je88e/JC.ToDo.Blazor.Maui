@@ -91,6 +91,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Code/Project/Blazor.Maui/Blazor.UI/Shared/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-8jpvrre0az
+
 [E:/Code/Project/Blazor.Maui/Blazor.UI/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-0q3gt2q9li
@@ -98,3 +102,7 @@ build_metadata.AdditionalFiles.CssScope = b-0q3gt2q9li
 [E:/Code/Project/Blazor.Maui/Blazor.UI/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-u42svwcdbe
+
+[E:/Code/Project/Blazor.Maui/Blazor.UI/Shared/UserLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFVzZXJMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-1qa9ejtb3d

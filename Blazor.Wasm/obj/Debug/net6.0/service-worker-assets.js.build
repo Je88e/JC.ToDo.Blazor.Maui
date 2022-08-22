@@ -73,6 +73,10 @@
       "url": "sample-data\/weather.json"
     },
     {
+      "hash": "sha256-Ce1ZSfpwI4T\/EAakkD0pHhq3K8l0K05QAYKqUzvX8YI=",
+      "url": "TODO_INFO.svg"
+    },
+    {
       "hash": "sha256-BFsaSASG9bnkvD5GGoEbAK21r1EkN6uELAsmTaTbvok=",
       "url": "Blazor.Wasm.styles.css"
     },
@@ -993,11 +997,11 @@
       "url": "_framework\/Blazor.Entity.dll"
     },
     {
-      "hash": "sha256-uzIJZUl6zQfncMkfleSKisZVcFpOIjsyjQeG7bAlaJI=",
+      "hash": "sha256-\/4fdjf6uJmKfpdP+nDra4W4lH+Mckq8CpFN43vuoNGM=",
       "url": "_framework\/Blazor.Model.dll"
     },
     {
-      "hash": "sha256-BW3xUWLGHacKf0yxUopApEszknv9Z6RBDJsLp\/ulEXQ=",
+      "hash": "sha256-iUavslHFKntAXrkhhjPv5aE7doFP25wRcYcbKcMMupM=",
       "url": "_framework\/Blazor.UI.dll"
     },
     {
@@ -1005,7 +1009,7 @@
       "url": "_framework\/Blazor.Common.pdb"
     },
     {
-      "hash": "sha256-Ad6ADJme4EUNLFp1N+G+PSk25tVUSL41mzeLbfuxh1U=",
+      "hash": "sha256-kNbkPYJBl\/DwdX9W0QemA2timRhYexJLHgRAoEsDK8U=",
       "url": "_framework\/Blazor.UI.pdb"
     },
     {
@@ -1013,15 +1017,15 @@
       "url": "_framework\/Blazor.Entity.pdb"
     },
     {
-      "hash": "sha256-9w\/oA4RzwyMDYEE2SMEZ9IMOKEuDuIM45z3O1hEvS2M=",
+      "hash": "sha256-9chGlsTi5+9M2dBI38OQGdq3+nIFY7O1yUsrBzJ+qcw=",
       "url": "_framework\/Blazor.Model.pdb"
     },
     {
-      "hash": "sha256-2RI1BchLt3msQWz6EV4EkWROObGYb1vqPG49tuGBPfg=",
+      "hash": "sha256-N9E7qDY63xezsoIx+\/R6M4F6mwfqVladvf0laFQ8aM8=",
       "url": "_framework\/Blazor.Wasm.dll"
     },
     {
-      "hash": "sha256-Wqhza5R41OLbVHT++\/scBvTfTK6aEZR13lHPlfagn50=",
+      "hash": "sha256-L1cIwiaelSXXk548owwbFAkAwzF\/PWgWlDLB5KWkedk=",
       "url": "_framework\/Blazor.Wasm.pdb"
     },
     {
@@ -1029,7 +1033,7 @@
       "url": "_framework\/blazor.webassembly.js"
     },
     {
-      "hash": "sha256-KT5DBe\/QlhQxlQ8ixNeYpBEZXNmDUH3jQa8IOcFo87c=",
+      "hash": "sha256-sYvDoYqzgoVBJENpodGaXbjA\/ggogbyGruWUoD6FGqI=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -2345,7 +2349,7 @@
       "url": "_content\/AntDesign.Charts\/g2plot.js"
     },
     {
-      "hash": "sha256-CBELrMBmZ6h1xTm4B9MspQMnJ1ppjUzlpDHkoWnjvIA=",
+      "hash": "sha256-97o\/GbGcr7o\/+l4uiQnRL54LH+2R6QaSvwZ97EhW6LU=",
       "url": "_content\/Blazor.UI\/Blazor.UI.bundle.scp.css"
     },
     {
@@ -2355,7 +2359,11 @@
     {
       "hash": "sha256-FrrTtczTUEHjkhc\/zWRPC7CmxeXI0JCZGc1+76qQ8B4=",
       "url": "_content\/Blazor.UI\/exampleJsInterop.js"
+    },
+    {
+      "hash": "sha256-Ce1ZSfpwI4T\/EAakkD0pHhq3K8l0K05QAYKqUzvX8YI=",
+      "url": "_content\/Blazor.UI\/TODO_INFO.svg"
     }
   ],
-  "version": "ntBAHCH4"
+  "version": "xsHFLb40"
 };

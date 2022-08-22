@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vwcESpHuOLPwmJF6DwX267z4xlYW7uL9HTstaqk0eFE=",
+  "Hash": "PlUOR9YsEotpJ4aBYs+Oe5R8fd5f0zlF6DI2pNvoUgQ=",
   "Source": "Blazor.Client",
   "BasePath": "_content/Blazor.Client",
   "Mode": "Default",
@@ -5899,6 +5899,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    },
+    {
+      "Identity": "E:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\wwwroot\\TODO_INFO.svg",
+      "SourceId": "Blazor.UI",
+      "SourceType": "Project",
+      "ContentRoot": "E:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\wwwroot\\",
+      "BasePath": "_content/Blazor.UI",
+      "RelativePath": "TODO_INFO.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\TODO_INFO.svg"
     }
   ]
 }

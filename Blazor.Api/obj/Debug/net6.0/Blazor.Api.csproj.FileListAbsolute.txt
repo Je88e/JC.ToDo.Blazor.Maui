@@ -162,3 +162,7 @@ E:\Code\Project\Blazor.Maui\Blazor.Api\obj\Debug\net6.0\refint\Blazor.Api.dll
 E:\Code\Project\Blazor.Maui\Blazor.Api\obj\Debug\net6.0\Blazor.Api.pdb
 E:\Code\Project\Blazor.Maui\Blazor.Api\obj\Debug\net6.0\Blazor.Api.genruntimeconfig.cache
 E:\Code\Project\Blazor.Maui\Blazor.Api\obj\Debug\net6.0\ref\Blazor.Api.dll
+E:\Code\Project\Blazor.Maui\Blazor.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+E:\Code\Project\Blazor.Maui\Blazor.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+E:\Code\Project\Blazor.Maui\Blazor.Api\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+E:\Code\Project\Blazor.Maui\Blazor.Api\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll

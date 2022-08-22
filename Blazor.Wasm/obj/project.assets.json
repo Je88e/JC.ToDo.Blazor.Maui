@@ -2473,6 +2473,10 @@
       "Blazor.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "6.0.8",
+          "OneOf": "2.1.155"
+        },
         "compile": {
           "bin/placeholder/Blazor.Model.dll": {}
         },
@@ -4896,6 +4900,10 @@
       "Blazor.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "6.0.8",
+          "OneOf": "2.1.155"
+        },
         "compile": {
           "bin/placeholder/Blazor.Model.dll": {}
         },
