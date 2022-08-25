@@ -63,6 +63,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9kby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/Code/Project/Blazor.Maui/Blazor.UI/Shared/Authentication.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEF1dGhlbnRpY2F0aW9uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Code/Project/Blazor.Maui/Blazor.UI/Shared/LoginDisplay.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

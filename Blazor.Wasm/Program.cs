@@ -1,4 +1,4 @@
-using Blazor.Common.Extensions;
+using Blazor.Common.ClientExtensions;
 using Blazor.UI; 
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
