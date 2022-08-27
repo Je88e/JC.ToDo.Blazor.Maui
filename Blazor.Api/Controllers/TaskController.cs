@@ -1,4 +1,4 @@
-﻿using Blazor.Entity;
+﻿using Blazor.Entity.Entity;
 using Blazor.Model.Dto;
 using Microsoft.AspNetCore.Mvc;
 using System.Linq.Dynamic.Core;
@@ -9,7 +9,7 @@ namespace Blazor.Api.Controllers
     [Route("api/[controller]/[action]")]
     public class TaskController : ControllerBase
     {
-        TodoContext Context;
+        private TodoContext Context;
 
         public TaskController(TodoContext context)
         {
@@ -25,7 +25,7 @@ namespace Blazor.Api.Controllers
         }
 
         [NonAction]
-        private IQueryable<TaskDto> QueryToDto(IQueryable<Blazor.Entity.Task> query)
+        private IQueryable<TaskDto> QueryToDto(IQueryable<Entity.Entity.Task> query)
         {
             return query.Select(x => new TaskDto()
             {
@@ -43,10 +43,10 @@ namespace Blazor.Api.Controllers
         [HttpPost]
         public Guid SaveTask(TaskDto dto)
         {
-            Blazor.Entity.Task entity;
+            Entity.Entity.Task entity;
             if (dto.TaskId == Guid.Empty)
             {
-                entity = new Blazor.Entity.Task();
+                entity = new Blazor.Entity.Entity.Task();
                 entity.TaskId = Guid.NewGuid();
                 Context.Add(entity);
             }

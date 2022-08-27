@@ -12,8 +12,7 @@ namespace Blazor.UI.Pages
 
         // 1、	列出当天的所有代办工作
         private List<TaskDto> taskDtos = new List<TaskDto>();
-
-        bool isLoading = true;
+        private bool isLoading = true;
         protected async override Task OnInitializedAsync()
         {
             isLoading = true;
@@ -25,7 +24,7 @@ namespace Blazor.UI.Pages
         //2、	添加代办
         public MessageService MsgSrv { get; set; }
 
-        async void OnInsert(TaskDto item)
+        private async void OnInsert(TaskDto item)
         {
             taskDtos.Add(item);
         }
@@ -33,7 +32,7 @@ namespace Blazor.UI.Pages
         //3、	编辑待办
         [Inject] public DrawerService DrawerSrv { get; set; }
 
-        async void OnCardClick(TaskDto task)
+        private async void OnCardClick(TaskDto task)
         {
             var result = await DrawerSrv.CreateDialogAsync<TaskInfo, TaskDto, TaskDto>(task, title: task.Title, width: 450);
             if (result == null) return;

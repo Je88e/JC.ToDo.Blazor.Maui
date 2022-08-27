@@ -1,4 +1,5 @@
 ﻿using Blazor.Model.Dto;
+using Blazor.UI.UIService;
 using Microsoft.AspNetCore.Components;
 using System.Net.Http.Json;
 
@@ -10,8 +11,7 @@ namespace Blazor.UI.Pages
         [Inject] public HttpClient Http { get; set; }
 
         private bool isLoading = false;
-
-        List<TaskDto> datas = new List<TaskDto>();
+        private List<TaskDto> datas = new List<TaskDto>();
 
         private string queryTitle;
 

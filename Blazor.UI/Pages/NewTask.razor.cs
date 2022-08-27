@@ -17,7 +17,7 @@ namespace Blazor.UI.Pages
         [Parameter] public RenderFragment<TaskDto> ChildContent { get; set; }
 
         //新的任务
-        TaskDto newTask { get; set; }
+        private TaskDto newTask { get; set; }
         private bool isNewLoading { get; set; }
 
         protected override void OnInitialized()
@@ -26,7 +26,7 @@ namespace Blazor.UI.Pages
             base.OnInitialized();
         }
 
-        async void OnInsertKey(KeyboardEventArgs e)
+        private async void OnInsertKey(KeyboardEventArgs e)
         {
             if (e.Code == "Enter")
             {

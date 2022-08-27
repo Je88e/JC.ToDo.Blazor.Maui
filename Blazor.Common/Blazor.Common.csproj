@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -7,19 +7,43 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AntDesign" Version="0.11.0" />
-    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <Compile Remove="Extensions\ServerExtensions\Authorizations\ApiResponseHandler.cs" />
+    <Compile Remove="Extensions\ServerExtensions\Authorizations\PermissionHandler.cs" />
+    <Compile Remove="Helper\DynamicLinqFactory.cs" />
+    <Compile Remove="Helper\WeChatHelper.cs" />
+    <Compile Remove="Extensions\ServerExtensions\Services\SecretConfig.cs" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AntDesign" Version="0.11.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.8" />
+    
+    <!--<PackageReference Include="Magicodes.IE.Excel" Version="2.6.4" />
+    <PackageReference Include="InitQ" Version="1.0.0.12" />
+    <PackageReference Include="log4net" Version="2.0.15" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="6.0.1" /> 
+    <PackageReference Include="PinYinConverterCore" Version="1.0.2" />
+    <PackageReference Include="RestSharp" Version="108.0.1" />
+    <PackageReference Include="RSAExtensions" Version="1.1.0" />
+    <PackageReference Include="Serilog.Sinks.Elasticsearch" Version="8.4.1" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.6.48" />
+
+    <PackageReference Include="Serilog" Version="2.11.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="6.0.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.22.1" />--> 
+
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Blazor.Entity\Blazor.Entity.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Helper\" />
+    <None Include="Extensions\ServerExtensions\Config\SecretConfig.cs" />
   </ItemGroup>
 
 </Project>

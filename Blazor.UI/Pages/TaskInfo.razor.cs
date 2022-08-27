@@ -13,9 +13,8 @@ namespace Blazor.UI.Pages
         [Inject]
         public MessageService MsgSvr { get; set; }
 
-        TaskDto taskDto;
-
-        bool isLoading = false;
+        private TaskDto taskDto;
+        private bool isLoading = false;
 
         protected override async Task OnInitializedAsync()
         {
@@ -23,7 +22,7 @@ namespace Blazor.UI.Pages
             await base.OnInitializedAsync();
         }
 
-        async void OnSave()
+        private async void OnSave()
         {
             var result = await Http.PostAsJsonAsync<TaskDto>($"api/Task/SaveTask", taskDto);
             if (result.StatusCode == System.Net.HttpStatusCode.OK)
@@ -37,7 +36,7 @@ namespace Blazor.UI.Pages
             }
         }
 
-        async void OnCancel()
+        private async void OnCancel()
         {
             await base.CloseFeedbackAsync();
         }

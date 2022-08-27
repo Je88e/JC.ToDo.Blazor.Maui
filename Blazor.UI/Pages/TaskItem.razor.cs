@@ -48,7 +48,7 @@ namespace Blazor.UI.Pages
         [Parameter] public RenderFragment TitleTemplate { get; set; }
 
         //进度迷你图
-        readonly RingProgressConfig progressConfig = new RingProgressConfig
+        private readonly RingProgressConfig progressConfig = new RingProgressConfig
         {
             Width = 30,
             Height = 30,

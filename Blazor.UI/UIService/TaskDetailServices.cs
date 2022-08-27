@@ -2,7 +2,7 @@
 using Blazor.Model.Dto;
 using Blazor.UI.Pages;
 
-namespace Blazor.UI
+namespace Blazor.UI.UIService
 {
     public class TaskDetailServices
     {

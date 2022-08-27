@@ -75,6 +75,10 @@
               "target": "Package",
               "version": "[6.1.0, )"
             },
+            "Rex.Microsoft.AspNetCore.Mvc.Extensions": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -156,13 +160,17 @@
               "target": "Package",
               "version": "[0.11.0, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Microsoft.AspNetCore.Cors": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.1, )"
             },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",

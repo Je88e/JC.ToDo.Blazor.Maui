@@ -1,4 +1,4 @@
-﻿using Blazor.Entity;
+﻿using Blazor.Entity.Entity;
 using Blazor.Model.Dto;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,7 +8,7 @@ namespace Blazor.Api.Controllers
     [Route("api/[controller]/[action]")]
     public class ChartController
     {
-        TodoContext Context;
+        private TodoContext Context;
 
         public ChartController(TodoContext context)
         {

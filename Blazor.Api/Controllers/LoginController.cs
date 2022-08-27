@@ -1,4 +1,8 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Blazor.Common.Extensions.ServerExtensions.Authorizations; 
+using Blazor.Common.Helper;
+using Blazor.Common.MemoryCache;
+using Blazor.Model.Dto;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -146,11 +150,11 @@ namespace Blazor.Api.Controllers
         [HttpGet("GetValidateCodeImages")]
         public IActionResult GetValidateCodeImages(string t)
         {
-            var validateCodeString = Tools.CreateValidateString();
+            var validateCodeString = ValidateImgHelper.CreateValidateString();
             //将验证码记入缓存中
             MemoryHelper.SetMemory(t, validateCodeString, 5);
             //接收图片返回的二进制流
-            byte[] buffer = Tools.CreateValidateCodeBuffer(validateCodeString);
+            byte[] buffer = ValidateImgHelper.CreateValidateCodeBuffer(validateCodeString);
             return File(buffer, @"image/jpeg");
         }
     }

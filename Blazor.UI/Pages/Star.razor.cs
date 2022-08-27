@@ -1,5 +1,6 @@
 ﻿using AntDesign;
 using Blazor.Model.Dto;
+using Blazor.UI.UIService;
 using Microsoft.AspNetCore.Components;
 using System.Net.Http.Json;
 
@@ -10,7 +11,7 @@ namespace Blazor.UI.Pages
         // 1、	列出当天的所有代办工作
         [Inject] public HttpClient Http { get; set; }
 
-        bool isLoading = true;
+        private bool isLoading = true;
         private List<TaskDto> taskDtos = new List<TaskDto>();
         protected async override Task OnInitializedAsync()
         {
@@ -22,14 +23,16 @@ namespace Blazor.UI.Pages
 
         //2、	添加代办
         public MessageService MsgSrv { get; set; }
-        async void OnInsert(TaskDto item)
+
+        private async void OnInsert(TaskDto item)
         {
             taskDtos.Add(item);
         }
 
         //3、	编辑抽屉
         [Inject] public TaskDetailServices TaskSrv { get; set; }
-        async void OnCardClick(TaskDto task)
+
+        private async void OnCardClick(TaskDto task)
         {
             TaskSrv.EditTask(task, taskDtos);
             await InvokeAsync(StateHasChanged);

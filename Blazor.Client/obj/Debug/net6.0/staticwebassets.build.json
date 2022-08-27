@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "PlUOR9YsEotpJ4aBYs+Oe5R8fd5f0zlF6DI2pNvoUgQ=",
+  "Hash": "f6L8D1yQQGHgRGubGanXvoYFquPLZOZBlSmYw9860FA=",
   "Source": "Blazor.Client",
   "BasePath": "_content/Blazor.Client",
   "Mode": "Default",
@@ -5595,10 +5595,10 @@
       "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\antdesign\\0.11.0\\staticwebassets\\less\\upload\\style\\rtl.less"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.7\\staticwebassets\\AuthenticationService.js",
+      "Identity": "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.8\\staticwebassets\\AuthenticationService.js",
       "SourceId": "Microsoft.AspNetCore.Components.WebAssembly.Authentication",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.7\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.8\\staticwebassets\\",
       "BasePath": "_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication",
       "RelativePath": "AuthenticationService.js",
       "AssetKind": "All",
@@ -5609,7 +5609,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.7\\staticwebassets\\AuthenticationService.js"
+      "OriginalItemSpec": "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.authentication\\6.0.8\\staticwebassets\\AuthenticationService.js"
     },
     {
       "Identity": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Blazor.Client.styles.css",

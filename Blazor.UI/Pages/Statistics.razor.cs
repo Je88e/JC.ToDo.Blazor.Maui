@@ -9,11 +9,9 @@ namespace Blazor.UI.Pages
     {
         [Inject] public HttpClient Http { get; set; }
 
-        bool isLoading = false;
-
-        IChartComponent amountChart;
-
-        readonly StackedColumnConfig amountConfig = new StackedColumnConfig
+        private bool isLoading = false;
+        private IChartComponent amountChart;
+        private readonly StackedColumnConfig amountConfig = new StackedColumnConfig
         {
             Title = new Title
             {

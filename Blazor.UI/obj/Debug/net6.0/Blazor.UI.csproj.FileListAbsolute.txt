@@ -43,8 +43,10 @@ E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\Blazor.UI.AssemblyInfo.cs
 E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\Blazor.UI.csproj.CoreCompileInputs.cache
 E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\staticwebassets.build.json
 E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\staticwebassets.development.json
+E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\scopedcss\Shared\Login.razor.rz.scp.css
 E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\scopedcss\Shared\UserLayout.razor.rz.scp.css
 E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\scopedcss\bundle\Blazor.UI.styles.css
 E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\scopedcss\projectbundle\Blazor.UI.bundle.scp.css
 E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\Blazor.UI.csproj.CopyComplete
@@ -52,5 +54,3 @@ E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\Blazor.UI.dll
 E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\refint\Blazor.UI.dll
 E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\Blazor.UI.pdb
 E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\ref\Blazor.UI.dll
-E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\scopedcss\Shared\Login.razor.rz.scp.css
-E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\scopedcss\Shared\UserLayout.razor.rz.scp.css

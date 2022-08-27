@@ -1,9 +1,9 @@
-using Blazor.Common.ClientExtensions;
-using Blazor.UI; 
+using Blazor.UI;
+using Blazor.UI.UIService;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
-builder.RootComponents.Add<Main>("app"); 
+builder.RootComponents.Add<Main>("app");
 builder.Services.AddAntDesignSetup();
 
 builder.Services.AddBlazorHttpClient();
@@ -13,5 +13,5 @@ builder.Services.AddOidcAuthentication(options =>
     builder.Configuration.Bind("Local", options.ProviderOptions);
 });
 
-var app = builder.Build(); 
+var app = builder.Build();
 await app.RunAsync();
