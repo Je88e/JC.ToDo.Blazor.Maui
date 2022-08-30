@@ -1,14 +1,19 @@
-using Blazor.Common.Extensions.ServerExtensions.Services;
+using Blazor.Common.Helper;
+using Blazor.Common.LogHelper;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Serialization;
+using Server.Extensions.Config;
+using Server.Extensions.Services;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+string ApiName = "Blazor.Core.Api";
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -19,7 +24,7 @@ builder.Host.ConfigureLogging((hostingContext, builder) =>
     builder.AddFilter("System", LogLevel.Error);
     builder.AddFilter("Microsoft", LogLevel.Error);
     builder.SetMinimumLevel(LogLevel.Error);
-    builder.AddLog4Net(Path.Combine(Directory.GetCurrentDirectory(), "Config/Log4net.config"));
+    builder.AddLog4Net(Path.Combine(Directory.GetCurrentDirectory(), "Config/log4net.config"));
 })
 .ConfigureAppConfiguration((hostingContext, config) =>
 {
@@ -30,18 +35,10 @@ builder.Host.ConfigureLogging((hostingContext, builder) =>
 builder.Services.AddEntityFramework(builder.Configuration);
 
 #region JWT
-
-
-var audienceConfig = builder.Configuration.GetSection("Audience");
-var symmetricKeyAsBase64 = audienceConfig["Secret"];
-var keyByteArray = Encoding.ASCII.GetBytes(symmetricKeyAsBase64);
-var signingKey = new SymmetricSecurityKey(keyByteArray);
-var signingCredentials = new SigningCredentials(signingKey, SecurityAlgorithms.HmacSha256);
-
+builder.Services.AddSingleton(new SecretConfig(builder.Configuration));
+builder.Services.AddSingleton(new JwtTokenDefaultConfig(builder.Configuration));
 builder.Services.AddAuthentication_JWTSetup();
-builder.Services.AddAuthorizationSetup();
-
-
+builder.Services.AddAuthorizationSetup(); 
 #endregion
 
 //Add Cors
@@ -64,15 +61,22 @@ if (app.Environment.IsDevelopment())
 {
     app.UseWebAssemblyDebugging();
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c => {
+        c.SwaggerEndpoint($"/swagger/v1/swagger.json", $"{ApiName}");
+        c.RoutePrefix = "";
+    });
 }
 
 app.UseRouting();
 
-app.UseAuthorization();
+app.UseCors(o => o.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+//app.UseCors("CorsPolicy");
+//app.UseCors(builder.Configuration.GetSection("Cors")["PolicyName"]);
 
-//app.UseCors(o => o.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
-app.UseCors(builder.Configuration.GetSection("Cors")["PolicyName"]);
+//app.UseAuthentication();
+
+//app.UseAuthorization();
+
 
 app.UseEndpoints(endpoints =>
 {

@@ -1,12 +1,12 @@
-﻿using Blazor.Common.Extensions.ServerExtensions.Config;
-using Blazor.Common.Helper;
+﻿using Blazor.Common.Helper;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
+using Server.Extensions.Config;
 using System.IdentityModel.Tokens.Jwt;
-using System.Text;
+using System.Text;  
 
-namespace Blazor.Common.Extensions.ServerExtensions.Services
+namespace Server.Extensions.Services
 {
     /// <summary>
     /// JWT权限 认证服务
@@ -89,6 +89,7 @@ namespace Blazor.Common.Extensions.ServerExtensions.Services
                      }
                  };
              });
+             //.AddScheme<AuthenticationSchemeOptions, ApiResponseHandler>(nameof(ApiResponseHandler), o => { });
 
         }
     }

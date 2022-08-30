@@ -1,4 +1,5 @@
-﻿using System.Security.Claims;
+﻿using Blazor.Model.Dto;
+using System.Security.Claims;
 
 namespace Blazor.Common.HttpContextUser
 {
@@ -12,5 +13,6 @@ namespace Blazor.Common.HttpContextUser
 
         string GetToken();
         List<string> GetUserInfoFromToken(string ClaimType);
+        MessageModel<string> MessageModel { get; set; }
     }
 }

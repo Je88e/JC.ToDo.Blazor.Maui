@@ -1,4 +1,5 @@
 ﻿using Blazor.Common.HttpContextUser;
+using Blazor.Model;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
@@ -6,7 +7,7 @@ using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using System.Text.Encodings.Web;
 
-namespace Blazor.Common.Extensions.ServerExtensions.Authorizations
+namespace Server.Extensions.Authorizations
 {
     public class ApiResponseHandler : AuthenticationHandler<AuthenticationSchemeOptions>
     {

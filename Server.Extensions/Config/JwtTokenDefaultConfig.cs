@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace Blazor.Common.Extensions.ServerExtensions.Config
+namespace Server.Extensions.Config
 {
     public class JwtTokenDefaultConfig
     {
@@ -9,6 +9,8 @@ namespace Blazor.Common.Extensions.ServerExtensions.Config
         {
             configuration = _configuration;
         }
+
+
         public static string Issuer => configuration.GetSection("Audience")["Issuer"];
         public static string Audience => configuration.GetSection("Audience")["Audience"];
 

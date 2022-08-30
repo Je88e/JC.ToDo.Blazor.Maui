@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Blazor.Common.Extensions.ServerExtensions.Authorizations
+namespace Server.Extensions.Authorizations
 {
     /// <summary>
     /// 必要参数类，类似一个订单信息

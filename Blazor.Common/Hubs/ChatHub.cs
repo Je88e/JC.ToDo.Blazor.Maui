@@ -1,5 +1,5 @@
 ﻿using Blazor.Common.LogHelper;
-using Microsoft.AspNetCore.SignalR;
+using Microsoft.AspNet.SignalR; 
 
 namespace Blazor.Common.Hubs
 {

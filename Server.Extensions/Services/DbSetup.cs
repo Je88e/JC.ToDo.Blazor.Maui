@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Blazor.Common.Extensions.ServerExtensions.Services
+namespace Server.Extensions.Services
 {
     public static class DbSetup
     {

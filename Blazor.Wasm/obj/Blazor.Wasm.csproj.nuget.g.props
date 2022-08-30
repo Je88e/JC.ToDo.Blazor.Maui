@@ -15,8 +15,12 @@
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore\6.0.7\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore\6.0.7\buildTransitive\net6.0\Microsoft.EntityFrameworkCore.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly.authentication\6.0.8\buildTransitive\Microsoft.AspNetCore.Components.WebAssembly.Authentication.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly.authentication\6.0.8\buildTransitive\Microsoft.AspNetCore.Components.WebAssembly.Authentication.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly\6.0.8\build\net6.0\Microsoft.AspNetCore.Components.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly\6.0.8\build\net6.0\Microsoft.AspNetCore.Components.WebAssembly.props')" />
     <Import Project="$(NuGetPackageRoot)antdesign\0.11.0\buildTransitive\AntDesign.props" Condition="Exists('$(NuGetPackageRoot)antdesign\0.11.0\buildTransitive\AntDesign.props')" />
     <Import Project="$(NuGetPackageRoot)antdesign.charts\0.2.0\buildTransitive\AntDesign.Charts.props" Condition="Exists('$(NuGetPackageRoot)antdesign.charts\0.2.0\buildTransitive\AntDesign.Charts.props')" />
   </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgWebApiClient_JIT Condition=" '$(PkgWebApiClient_JIT)' == '' ">C:\Users\Lenovo\.nuget\packages\webapiclient.jit\1.1.4</PkgWebApiClient_JIT>
+    <PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer)' == '' ">C:\Users\Lenovo\.nuget\packages\microsoft.aspnetcore.components.webassembly.devserver\6.0.8</PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer>
+  </PropertyGroup>
 </Project>

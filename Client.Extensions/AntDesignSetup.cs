@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace Blazor.Common.Extensions.ClientExtensions;
+namespace Client.Extensions;
 
 public static class AntDesignSetup
 {

@@ -35,6 +35,9 @@
             "projectReferences": {
               "E:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\Blazor.Entity.csproj": {
                 "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\Blazor.Entity.csproj"
+              },
+              "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj": {
+                "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj"
               }
             }
           }
@@ -49,17 +52,25 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "AntDesign": {
+            "InitQ": {
               "target": "Package",
-              "version": "[0.11.0, )"
+              "version": "[1.0.0.12, )"
             },
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "Magicodes.IE.Excel": {
               "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[2.6.4, )"
+            },
+            "Microsoft.AspNet.SignalR.Core": {
+              "target": "Package",
+              "version": "[2.4.3, )"
             },
             "Microsoft.AspNetCore.Cors": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -72,6 +83,42 @@
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "PinYinConverterCore": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "RSAExtensions": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.15.0, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.48, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.22.1, )"
+            },
+            "WebApiClient.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "WebApiClient.JIT": {
+              "target": "Package",
+              "version": "[1.1.4, )"
             }
           },
           "imports": [
@@ -309,10 +356,6 @@
             "Microsoft.AspNetCore.Components.Web": {
               "target": "Package",
               "version": "[6.0.8, )"
-            },
-            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
-              "target": "Package",
-              "version": "[6.0.8, )"
             }
           },
           "imports": [
@@ -369,6 +412,9 @@
               },
               "E:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj": {
                 "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj"
+              },
+              "E:\\Code\\Project\\Blazor.Maui\\Client.Extensions\\Client.Extensions.csproj": {
+                "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Client.Extensions\\Client.Extensions.csproj"
               }
             }
           }
@@ -382,6 +428,25 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AntDesign": {
+              "target": "Package",
+              "version": "[0.11.0, )"
+            },
+            "AntDesign.Charts": {
+              "target": "Package",
+              "version": "[0.2.0, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -393,12 +458,89 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.8, 6.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
         "browser-wasm": {
           "#import": []
+        }
+      }
+    },
+    "E:\\Code\\Project\\Blazor.Maui\\Client.Extensions\\Client.Extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Code\\Project\\Blazor.Maui\\Client.Extensions\\Client.Extensions.csproj",
+        "projectName": "Client.Extensions",
+        "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Client.Extensions\\Client.Extensions.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "E:\\Code\\Project\\Blazor.Maui\\Client.Extensions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AntDesign": {
+              "target": "Package",
+              "version": "[0.11.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

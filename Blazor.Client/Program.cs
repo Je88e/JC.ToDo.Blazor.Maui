@@ -1,5 +1,5 @@
-using Blazor.Common.Extensions.ClientExtensions;
 using Blazor.UI.Data;
+using Client.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 

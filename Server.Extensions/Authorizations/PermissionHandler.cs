@@ -9,8 +9,8 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text.RegularExpressions;
 
-namespace Blazor.Common.Extensions.ServerExtensions.Authorizations
-{ 
+namespace Server.Extensions.Authorizations
+{
     /// <summary>
     /// 权限授权处理器
     /// </summary>

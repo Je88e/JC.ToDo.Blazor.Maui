@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Blazor.UI\Blazor.UI.csproj" />
+    <ProjectReference Include="..\Client.Extensions\Client.Extensions.csproj" />
   </ItemGroup>
 
 </Project>

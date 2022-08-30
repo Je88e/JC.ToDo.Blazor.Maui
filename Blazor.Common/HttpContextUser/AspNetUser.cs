@@ -1,11 +1,13 @@
-﻿using Blazor.Common.GlobalVar;
+﻿using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using Blazor.Common.GlobalVar;
 using Blazor.Common.Helper;
+using Blazor.Common.HttpContextUser;
+using Blazor.Model.Dto;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
 
-namespace Blazor.Common.HttpContextUser
+namespace Blog.Core.Common.HttpContextUser
 {
     public class AspNetUser : IUser
     {
@@ -70,9 +72,18 @@ namespace Blazor.Common.HttpContextUser
             return new List<string>() { };
         }
 
+        public MessageModel<string> MessageModel { get; set; }
+
         public IEnumerable<Claim> GetClaimsIdentity()
         {
-            return _accessor.HttpContext.User.Claims;
+            var claims = _accessor.HttpContext.User.Claims.ToList();
+            var headers = _accessor.HttpContext.Request.Headers;
+            foreach (var header in headers)
+            {
+                claims.Add(new Claim(header.Key, header.Value));
+            }
+
+            return claims;
         }
 
         public List<string> GetClaimValueByType(string ClaimType)

@@ -1,11 +1,11 @@
-﻿using Blazor.Common.Extensions.ServerExtensions.Config;
-using Blazor.Common.Helper;
+﻿using Blazor.Common.Helper;
 using Microsoft.IdentityModel.Tokens;
+using Server.Extensions.Config;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
-using System.Text;
+using System.Text; 
 
-namespace Blazor.Common.Extensions.ServerExtensions.Authorizations
+namespace Server.Extensions.Authorizations
 {
     public class JwtHelper
     {

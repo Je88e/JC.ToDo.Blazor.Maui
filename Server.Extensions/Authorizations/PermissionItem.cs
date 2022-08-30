@@ -1,4 +1,4 @@
-﻿namespace Blazor.Common.Extensions.ServerExtensions.Authorizations
+﻿namespace Server.Extensions.Authorizations
 {
     /// <summary>
     /// 用户或角色或其他凭据实体,就像是订单详情一样

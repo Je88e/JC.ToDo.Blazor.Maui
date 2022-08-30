@@ -1,7 +1,8 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Options;
 
-namespace Blazor.Common.Extensions.ServerExtensions.Services
+namespace Server.Extensions.Services
 {
     /// <summary>
     /// Cors 启动服务
@@ -24,6 +25,7 @@ namespace Blazor.Common.Extensions.ServerExtensions.Services
                         {
                             policy
                             .WithOrigins(policyConfiguration["IPs"].Split(','))
+                            .AllowCredentials()
                             .AllowAnyHeader()//Ensures that the policy allows any header.
                             .AllowAnyMethod();
                         });
@@ -34,10 +36,18 @@ namespace Blazor.Common.Extensions.ServerExtensions.Services
                     c.AddPolicy(policyName,
                         policy =>
                         {
-                            policy.AllowAnyOrigin()
+                            policy.AllowAnyMethod()
+                                .AllowAnyHeader()
+                                .AllowCredentials()
+                                .SetIsOriginAllowed(hostName => true);
+                            
+                        });
+                    c.AddPolicy("CorsPolicy",
+                        policy => {
+                            policy
+                            .AllowAnyOrigin()
                             .AllowAnyMethod()
-                            .AllowAnyHeader()
-                            .AllowCredentials();
+                            .AllowAnyHeader();
                         });
                 }
 

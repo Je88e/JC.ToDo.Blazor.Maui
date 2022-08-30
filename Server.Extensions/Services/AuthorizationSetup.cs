@@ -1,12 +1,12 @@
-﻿using Blazor.Common.Extensions.ServerExtensions.Authorizations;
-using Blazor.Common.Extensions.ServerExtensions.Config;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
+using Server.Extensions.Authorizations;
+using Server.Extensions.Config;
 using System.Security.Claims;
 using System.Text;
 
-namespace Blazor.Common.Extensions.ServerExtensions.Services
+namespace Server.Extensions.Services
 {
     /// <summary>
     /// 系统 授权服务 配置

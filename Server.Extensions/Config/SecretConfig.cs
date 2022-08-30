@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace Blazor.Common.Extensions.ServerExtensions.Config
+namespace Server.Extensions.Config
 {
     public class SecretConfig
     {

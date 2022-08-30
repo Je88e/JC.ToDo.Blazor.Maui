@@ -1,10 +1,10 @@
-﻿using Blazor.Common.Extensions.ServerExtensions.Authorizations; 
-using Blazor.Common.Helper;
+﻿using Blazor.Common.Helper;
 using Blazor.Common.MemoryCache;
 using Blazor.Model.Dto;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
+using Server.Extensions.Authorizations;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
