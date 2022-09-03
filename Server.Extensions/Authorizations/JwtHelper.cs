@@ -30,7 +30,6 @@ namespace Server.Extensions.Authorizations
                    2、你也可以研究下 HttpContext.User.Claims ，具体的你可以看看 Policys/PermissionHandler.cs 类中是如何使用的。
                  */
 
-                    
                 new Claim(ClaimTypes.Name,"Jesse"),
                 new Claim(JwtRegisteredClaimNames.Email,"1210333872@qq.com"),
                 new Claim(JwtRegisteredClaimNames.Sub,"25"),

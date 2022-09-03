@@ -32,10 +32,9 @@ builder.Host.ConfigureLogging((hostingContext, builder) =>
     config.AddJsonFile("appsettings.json", optional: true, reloadOnChange: false);
 });
 
-builder.Services.AddEntityFramework(builder.Configuration);
-
 #region JWT
 builder.Services.AddSingleton(new SecretConfig(builder.Configuration));
+builder.Services.AddSingleton<ISecretConfig>(new SecretConfig(builder.Configuration));
 builder.Services.AddSingleton(new JwtTokenDefaultConfig(builder.Configuration));
 builder.Services.AddAuthentication_JWTSetup();
 builder.Services.AddAuthorizationSetup(); 
@@ -48,11 +47,13 @@ builder.Services.AddControllers().AddNewtonsoftJson(options =>
 {
     options.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
     options.SerializerSettings.ContractResolver = new DefaultContractResolver();
-    options.SerializerSettings.DateFormatString = "yyyy-MM-dd HH:mm:ss";
-    //options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
+    //options.SerializerSettings.DateFormatString = "yyyy-MM-dd HH:mm:ss";
+    options.SerializerSettings.NullValueHandling = NullValueHandling.Ignore;
     options.SerializerSettings.DateTimeZoneHandling = DateTimeZoneHandling.Local;
     options.SerializerSettings.Converters.Add(new StringEnumConverter());
 });
+
+builder.Services.AddEntityFramework(builder.Configuration);
 
 var app = builder.Build();
 

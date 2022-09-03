@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using Server.Extensions.Authorizations;
+using Server.Extensions.Config;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -112,6 +113,49 @@ namespace Blazor.Api.Controllers
                     response = "登录失败",
                     msg = rolename
                 };
+            }
+
+        }
+
+        [HttpGet("BlazorClientCheckState")]
+        public UserDto BlazorClientCheckState()
+        {
+            if (User.Identity.IsAuthenticated)//如果Token有效
+            {
+                //模拟获得Token 
+                var name = User.Claims.First(x => x.Type == ClaimTypes.Name).Value;//从Token中拿出用户ID
+                                                                                   
+                // 将用户id和角色名，作为单独的自定义变量封装进 token 字符串中。
+                TokenModelJwt tokenModel = new TokenModelJwt { Uid = IdHelper.VipId(), Role = "Admin" };
+                var jwtStr = JwtHelper.IssueJwt(tokenModel);//登录，获取到一定规则的 Token 令牌
+                return new UserDto() { Name = name, Token = jwtStr };
+            }
+            else
+            {
+                return new UserDto() { };
+            }
+        }
+
+        [HttpPost("BlazorToDoJwtLogin")]
+        public async Task<UserDto> BlazorToDoJwtLogin(LoginDto loginDto)
+        {
+            if (loginDto.UserName is null || loginDto.Password is null)
+            {
+                throw new ArgumentNullException();
+            }
+            if ((loginDto.UserName == "Jesse" || loginDto.UserName == "Admin") && MD5Helper.MD5Encrypt32(loginDto.Password) == MD5Helper.MD5Encrypt32(SecretConfig.AccountPasswd))
+            {
+                // 将用户id和角色名，作为单独的自定义变量封装进 token 字符串中。
+                TokenModelJwt tokenModel = new TokenModelJwt { Uid = IdHelper.VipId(), Role = "Admin" };
+                var jwtStr = JwtHelper.IssueJwt(tokenModel);//登录，获取到一定规则的 Token 令牌
+                return new UserDto() { 
+                    Name = loginDto.UserName,
+                    Token = jwtStr
+                };
+            }
+            else
+            {
+                return new UserDto();
             }
 
         }

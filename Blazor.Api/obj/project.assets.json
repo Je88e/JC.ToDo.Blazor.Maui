@@ -10105,11 +10105,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Api\\Blazor.Api.csproj",
+      "projectUniqueName": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Api\\Blazor.Api.csproj",
       "projectName": "Blazor.Api",
-      "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Api\\Blazor.Api.csproj",
+      "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Api\\Blazor.Api.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Api\\obj\\",
+      "outputPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -10131,17 +10131,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj": {
-              "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj"
+            "e:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj": {
+              "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj"
             },
-            "E:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\Blazor.Entity.csproj": {
-              "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\Blazor.Entity.csproj"
+            "e:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\Blazor.Entity.csproj": {
+              "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\Blazor.Entity.csproj"
             },
-            "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj": {
-              "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj"
+            "e:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj": {
+              "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj"
             },
-            "E:\\Code\\Project\\Blazor.Maui\\Server.Extensions\\Server.Extensions.csproj": {
-              "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Server.Extensions\\Server.Extensions.csproj"
+            "e:\\Code\\Project\\Blazor.Maui\\Server.Extensions\\Server.Extensions.csproj": {
+              "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Server.Extensions\\Server.Extensions.csproj"
             }
           }
         }

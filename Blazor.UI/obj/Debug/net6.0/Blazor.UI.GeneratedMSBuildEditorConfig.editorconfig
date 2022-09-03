@@ -8,101 +8,101 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows,browser
 build_property.RootNamespace = Blazor.UI
 build_property.RootNamespace = Blazor.UI
-build_property.ProjectDir = E:\Code\Project\Blazor.Maui\Blazor.UI\
+build_property.ProjectDir = e:\Code\Project\Blazor.Maui\Blazor.UI\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\Code\Project\Blazor.Maui\Blazor.UI
+build_property.MSBuildProjectDirectory = e:\Code\Project\Blazor.Maui\Blazor.UI
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/Code/Project/Blazor.Maui/Blazor.UI/Main.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.UI/Main.razor]
 build_metadata.AdditionalFiles.TargetPath = TWFpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Code/Project/Blazor.Maui/Blazor.UI/Pages/Counter.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.UI/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Code/Project/Blazor.Maui/Blazor.UI/Pages/FetchData.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.UI/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Code/Project/Blazor.Maui/Blazor.UI/Pages/Index.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.UI/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Code/Project/Blazor.Maui/Blazor.UI/Pages/NewTask.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.UI/Pages/NewTask.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3VGFzay5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Code/Project/Blazor.Maui/Blazor.UI/Pages/Star.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.UI/Pages/Star.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Rhci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Code/Project/Blazor.Maui/Blazor.UI/Pages/Statistics.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.UI/Pages/Statistics.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3RhdGlzdGljcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Code/Project/Blazor.Maui/Blazor.UI/Pages/TaskInfo.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.UI/Pages/TaskInfo.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFza0luZm8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Code/Project/Blazor.Maui/Blazor.UI/Pages/TaskItem.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.UI/Pages/TaskItem.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFza0l0ZW0ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Code/Project/Blazor.Maui/Blazor.UI/Pages/TaskSearch.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.UI/Pages/TaskSearch.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFza1NlYXJjaC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Code/Project/Blazor.Maui/Blazor.UI/Pages/ToDay.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.UI/Pages/ToDay.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9EYXkucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Code/Project/Blazor.Maui/Blazor.UI/Pages/Todo.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.UI/Pages/Todo.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVG9kby5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Code/Project/Blazor.Maui/Blazor.UI/Shared/LoginDisplay.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.UI/Shared/LoginDisplay.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Code/Project/Blazor.Maui/Blazor.UI/Shared/RedirectToLogin.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.UI/Shared/RedirectToLogin.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFJlZGlyZWN0VG9Mb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Code/Project/Blazor.Maui/Blazor.UI/Shared/SurveyPrompt.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.UI/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Code/Project/Blazor.Maui/Blazor.UI/Shared/ToDoHead.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.UI/Shared/ToDoHead.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRvRG9IZWFkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Code/Project/Blazor.Maui/Blazor.UI/Shared/ToDoLogo.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.UI/Shared/ToDoLogo.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRvRG9Mb2dvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Code/Project/Blazor.Maui/Blazor.UI/Shared/ToDoMenu.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.UI/Shared/ToDoMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRvRG9NZW51LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Code/Project/Blazor.Maui/Blazor.UI/_Imports.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.UI/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Code/Project/Blazor.Maui/Blazor.UI/Shared/Login.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.UI/Shared/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-8jpvrre0az
 
-[E:/Code/Project/Blazor.Maui/Blazor.UI/Shared/MainLayout.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.UI/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-0q3gt2q9li
 
-[E:/Code/Project/Blazor.Maui/Blazor.UI/Shared/NavMenu.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.UI/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-u42svwcdbe
 
-[E:/Code/Project/Blazor.Maui/Blazor.UI/Shared/UserLayout.razor]
+[e:/Code/Project/Blazor.Maui/Blazor.UI/Shared/UserLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFVzZXJMYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-1qa9ejtb3d

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zfXjD+JkJvMJ9frw2VfelsEoSBXYcciGtGQsX0nJQubw7Xk80pq9Y1LbMhTB9b9FjsDm7yBsmcEnK88OPNU0Fw==",
+  "dgSpecHash": "1mTZofWVEdF44ZpzB9ug38tMqqcAQz/a8DV3hjfMvDINE4Nz7jT2suMH2I/Rd3zLh0Taa5OYRLp/f/FoI0lkJg==",
   "success": true,
-  "projectFilePath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Wasm\\Blazor.Wasm.csproj",
+  "projectFilePath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Wasm\\Blazor.Wasm.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\antdesign\\0.11.0\\antdesign.0.11.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\antdesign.charts\\0.2.0\\antdesign.charts.0.2.0.nupkg.sha512",

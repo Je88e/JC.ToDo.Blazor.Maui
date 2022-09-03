@@ -26,6 +26,11 @@ D:\JC\Projects\Blazor.Maui\Blazor.UI\bin\Debug\net6.0\Blazor.Common.dll
 D:\JC\Projects\Blazor.Maui\Blazor.UI\bin\Debug\net6.0\Blazor.Entity.dll
 D:\JC\Projects\Blazor.Maui\Blazor.UI\bin\Debug\net6.0\Blazor.Common.pdb
 D:\JC\Projects\Blazor.Maui\Blazor.UI\bin\Debug\net6.0\Blazor.Entity.pdb
+E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\Blazor.UI.csproj.AssemblyReference.cache
+E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\Blazor.UI.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\Blazor.UI.AssemblyInfoInputs.cache
+E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\Blazor.UI.AssemblyInfo.cs
+E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\Blazor.UI.csproj.CoreCompileInputs.cache
 E:\Code\Project\Blazor.Maui\Blazor.UI\bin\Debug\net6.0\Blazor.UI.staticwebassets.runtime.json
 E:\Code\Project\Blazor.Maui\Blazor.UI\bin\Debug\net6.0\Blazor.UI.deps.json
 E:\Code\Project\Blazor.Maui\Blazor.UI\bin\Debug\net6.0\Blazor.UI.dll
@@ -36,11 +41,6 @@ E:\Code\Project\Blazor.Maui\Blazor.UI\bin\Debug\net6.0\Blazor.Model.dll
 E:\Code\Project\Blazor.Maui\Blazor.UI\bin\Debug\net6.0\Blazor.Common.pdb
 E:\Code\Project\Blazor.Maui\Blazor.UI\bin\Debug\net6.0\Blazor.Model.pdb
 E:\Code\Project\Blazor.Maui\Blazor.UI\bin\Debug\net6.0\Blazor.Entity.pdb
-E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\Blazor.UI.csproj.AssemblyReference.cache
-E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\Blazor.UI.GeneratedMSBuildEditorConfig.editorconfig
-E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\Blazor.UI.AssemblyInfoInputs.cache
-E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\Blazor.UI.AssemblyInfo.cs
-E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\Blazor.UI.csproj.CoreCompileInputs.cache
 E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\staticwebassets.build.json
 E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\staticwebassets.development.json
 E:\Code\Project\Blazor.Maui\Blazor.UI\obj\Debug\net6.0\scopedcss\Shared\Login.razor.rz.scp.css

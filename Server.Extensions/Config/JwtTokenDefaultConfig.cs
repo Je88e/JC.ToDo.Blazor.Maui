@@ -2,7 +2,7 @@
 
 namespace Server.Extensions.Config
 {
-    public class JwtTokenDefaultConfig
+    public class JwtTokenDefaultConfig : ISecretConfig
     {
         private static IConfiguration configuration;
         public JwtTokenDefaultConfig(IConfiguration _configuration)

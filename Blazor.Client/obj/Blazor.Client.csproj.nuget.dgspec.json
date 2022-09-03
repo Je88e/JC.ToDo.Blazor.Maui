@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Code\\Project\\Blazor.Maui\\Blazor.Client\\Blazor.Client.csproj": {}
+    "e:\\Code\\Project\\Blazor.Maui\\Blazor.Client\\Blazor.Client.csproj": {}
   },
   "projects": {
-    "E:\\Code\\Project\\Blazor.Maui\\Blazor.Client\\Blazor.Client.csproj": {
+    "e:\\Code\\Project\\Blazor.Maui\\Blazor.Client\\Blazor.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Client\\Blazor.Client.csproj",
+        "projectUniqueName": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Client\\Blazor.Client.csproj",
         "projectName": "Blazor.Client",
-        "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Client\\Blazor.Client.csproj",
+        "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Client\\Blazor.Client.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Client\\obj\\",
+        "outputPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj": {
-                "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj"
+              "e:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj": {
+                "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj"
               },
-              "E:\\Code\\Project\\Blazor.Maui\\Client.Extensions\\Client.Extensions.csproj": {
-                "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Client.Extensions\\Client.Extensions.csproj"
+              "e:\\Code\\Project\\Blazor.Maui\\Client.Extensions\\Client.Extensions.csproj": {
+                "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Client.Extensions\\Client.Extensions.csproj"
               }
             }
           }
@@ -80,14 +80,14 @@
         }
       }
     },
-    "E:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj": {
+    "e:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj",
+        "projectUniqueName": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj",
         "projectName": "Blazor.Common",
-        "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj",
+        "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\obj\\",
+        "outputPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -109,11 +109,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\Blazor.Entity.csproj": {
-                "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\Blazor.Entity.csproj"
+              "e:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\Blazor.Entity.csproj": {
+                "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\Blazor.Entity.csproj"
               },
-              "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj": {
-                "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj"
+              "e:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj": {
+                "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj"
               }
             }
           }
@@ -217,14 +217,14 @@
         }
       }
     },
-    "E:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\Blazor.Entity.csproj": {
+    "e:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\Blazor.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\Blazor.Entity.csproj",
+        "projectUniqueName": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\Blazor.Entity.csproj",
         "projectName": "Blazor.Entity",
-        "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\Blazor.Entity.csproj",
+        "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\Blazor.Entity.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\obj\\",
+        "outputPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -299,14 +299,14 @@
         }
       }
     },
-    "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj": {
+    "e:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj",
+        "projectUniqueName": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj",
         "projectName": "Blazor.Model",
-        "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj",
+        "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\obj\\",
+        "outputPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -369,14 +369,14 @@
         }
       }
     },
-    "E:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj": {
+    "e:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj",
+        "projectUniqueName": "e:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj",
         "projectName": "Blazor.UI",
-        "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj",
+        "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\Blazor.UI.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\obj\\",
+        "outputPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -398,11 +398,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj": {
-                "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj"
+              "e:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj": {
+                "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Common\\Blazor.Common.csproj"
               },
-              "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj": {
-                "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj"
+              "e:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj": {
+                "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Blazor.Model\\Blazor.Model.csproj"
               }
             }
           }
@@ -454,14 +454,14 @@
         }
       }
     },
-    "E:\\Code\\Project\\Blazor.Maui\\Client.Extensions\\Client.Extensions.csproj": {
+    "e:\\Code\\Project\\Blazor.Maui\\Client.Extensions\\Client.Extensions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Code\\Project\\Blazor.Maui\\Client.Extensions\\Client.Extensions.csproj",
+        "projectUniqueName": "e:\\Code\\Project\\Blazor.Maui\\Client.Extensions\\Client.Extensions.csproj",
         "projectName": "Client.Extensions",
-        "projectPath": "E:\\Code\\Project\\Blazor.Maui\\Client.Extensions\\Client.Extensions.csproj",
+        "projectPath": "e:\\Code\\Project\\Blazor.Maui\\Client.Extensions\\Client.Extensions.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "E:\\Code\\Project\\Blazor.Maui\\Client.Extensions\\obj\\",
+        "outputPath": "e:\\Code\\Project\\Blazor.Maui\\Client.Extensions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

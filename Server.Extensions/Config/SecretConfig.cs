@@ -2,7 +2,7 @@
 
 namespace Server.Extensions.Config
 {
-    public class SecretConfig
+    public class SecretConfig : ISecretConfig
     {
         private static IConfiguration configuration;
         public SecretConfig(IConfiguration _configuration)
@@ -11,7 +11,8 @@ namespace Server.Extensions.Config
         }
 
         public static string Jwt_Secret_File => ReadSecretFile(configuration.GetSection("Secret").GetSection("File")["JwtSecretFile"]);
-        public static string Db_MySql_Secret_ConnectString => ReadSecretFile(configuration.GetSection("Secret").GetSection("Value")["MySqlSecretConnectString"]);
+        public static string Db_MySql_Secret_ConnectString => ReadSecretFile(configuration.GetSection("Secret").GetSection("File")["MySqlSecretConnectString"]); 
+        public static string AccountPasswd => configuration.GetSection("Account")["Password"];
 
         private static string ReadSecretFile(string filePath)
         {

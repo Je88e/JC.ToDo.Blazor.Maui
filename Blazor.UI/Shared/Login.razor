@@ -2,32 +2,30 @@
 @layout UserLayout
 @page "/authentication/login"
 
-<div class="main__b__0">
-    <div class="login">
-        <Form Model="@_model" OnFinish="HandleSubmit">
-            <Tabs ActiveKey="@context.LoginType">
-                <TabPane Key="1" Tab="Account Login">
-                    <FormItem>
-                        <AntDesign.Input Placeholder="Username:" Size="large" @bind-Value="@context.UserName">
-                            <Prefix><Icon Type="user" /></Prefix>
-                        </AntDesign.Input>
-                    </FormItem>
-                    <FormItem>
-                        <AntDesign.Input Placeholder="Password:" Size="large" @bind-Value="@context.Password" Type="password">
-                            <Prefix><Icon Type="lock" /></Prefix>
-                        </AntDesign.Input>
-                    </FormItem>
-                </TabPane> 
-            </Tabs>
-            <div>
-                <Checkbox Checked="@context.AutoLogin">
-                    Auto Login
-                </Checkbox>
-                <a style="float: right;">
-                    Forgot Password
-                </a>
-            </div>
-            <Button Type="primary" HtmlType="submit" Class="submit" Size="large" Block>Log in </Button>
-        </Form>
+<Spin Spinning="isLoading">
+    <div class="main__b__0">
+        <div class="login">
+            <Form Model="@model" OnFinish="OnLogin">
+                <FormItem>
+                            <AntDesign.Input Placeholder="Username:" Size="large" @bind-Value="@context.UserName">
+                                <Prefix><Icon Type="user" /></Prefix>
+                            </AntDesign.Input>
+                        </FormItem>
+                        <FormItem>
+                            <AntDesign.Input Placeholder="Password:" Size="large" @bind-Value="@context.Password" Type="password">
+                                <Prefix><Icon Type="lock" /></Prefix>
+                            </AntDesign.Input>
+                        </FormItem>        
+                <div>
+                    @*<Checkbox Checked="@context.AutoLogin">
+                        Auto Login
+                    </Checkbox>*@
+                    <a style="float: right;">
+                        Forgot Password
+                    </a>
+                </div>
+                <Button Type="primary" HtmlType="submit" Class="submit" Size="large" Block>Log in </Button>
+            </Form>
+        </div>
     </div>
-</div>
+</Spin>

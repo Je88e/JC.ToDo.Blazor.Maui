@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Server.Extensions.Config;
 
 namespace Server.Extensions.Services
 {
@@ -14,7 +15,7 @@ namespace Server.Extensions.Services
             if (configuration["UseDb"] == "MySql")
             {
                 services.AddDbContext<TodoContext>(options =>
-                        options.UseMySql(configuration.GetConnectionString("MySqlConnection"), new MySqlServerVersion(new Version(5, 7)))
+                        options.UseMySql(SecretConfig.Db_MySql_Secret_ConnectString, new MySqlServerVersion(new Version(5, 7)))
                         .LogTo(Console.WriteLine)
                         .EnableSensitiveDataLogging()
                         .EnableDetailedErrors());

@@ -48,3 +48,6 @@ msbuild.wrn
 
 # Built Visual Studio Code Extensions
 *.vsix
+.vs/Blazor.Maui/DesignTimeBuild/.dtbcache.v2
+.vs/Blazor.Maui/v17/.futdcache.v2
+.vs/Blazor.Maui/v17/.suo  

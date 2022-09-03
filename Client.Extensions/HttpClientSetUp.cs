@@ -8,6 +8,6 @@ public static class HttpClientSetup
     {
         if (services == null) throw new ArgumentNullException(nameof(services));
 
-        services.AddScoped(sp => new HttpClient { BaseAddress = new Uri($"http://localhost:5022") });
+        services.AddScoped(sp => new HttpClient { BaseAddress = new Uri($"http://localhost:5000") });
     }
 }
